@@ -1,0 +1,14 @@
+/* src/components/Scroll.css */
+@keyframes marquee {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.scroll-track {
+  display: flex;
+  animation: marquee 20s linear infinite;
+}
